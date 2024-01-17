@@ -1,0 +1,486 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-image: url(images/factory3-topbar.png);
+  width: 100%;
+  height: 9vh;
+}
+
+nav ul {
+  display: flex;
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 22px;
+  color: #fff;
+  margin: 30px;
+}
+
+nav ul span {
+  background-color: chocolate;
+  color: rgb(168, 79, 15);
+}
+
+.header-bg {
+  background-image: url(images/factory3-slider-bg.jpg);
+  width: 100%;
+  height: 95vh;
+}
+
+.head h1 {
+  width: 55%;
+  height: 45vh;
+  color: #fff;
+  font-size: 90px;
+  border-bottom: 2px solid #fff;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.stamp {
+  display: flex;
+  justify-content: center;
+  margin: 8% 10px;
+  margin-left: 6%;
+}
+.stamp p {
+  width: 22%;
+  color: #fff;
+  padding: 20px;
+}
+.stamp button {
+  width: 10%;
+  height: 5vh;
+  font-size: 14px;
+  background-color: chocolate;
+  border: none;
+  margin: 15px 10%;
+}
+
+main .main-bg {
+  background-image: url(images/factory3-bg.png);
+  width: 100%;
+  height: 110vh;
+  /* display: flex; */
+  position: relative;
+  z-index: 2;
+}
+
+.main-head h1 {
+  width: 90%;
+  font-size: 40px;
+  padding: 60px 23%;
+}
+
+.company-img h1 {
+  font-size: 40px;
+  height: 7vh;
+}
+
+.company-img h4 {
+  color: orangered;
+  height: 5vh;
+}
+
+.company-img p {
+  width: 20%;
+  height: 15vh;
+}
+.company-img img {
+  width: 30%;
+  height: 40vh;
+  float: right;
+  margin-right: 20%;
+}
+
+.about {
+  margin-left: 23%;
+  padding-top: 5%;
+}
+
+.company-start {
+  width: 80%;
+  height: 55vh;
+  background-color: #627478;
+  margin: 12% 10%;
+}
+
+.company-start img {
+  float: right;
+  height: 55vh;
+  width: 68%;
+  object-fit: cover;
+}
+.person {
+  padding: 8% 70px;
+}
+
+.person h2 {
+  font-size: 35px;
+  width: 25%;
+  color: #fff;
+}
+.person h3 {
+  font-size: 32px;
+  color: #fff;
+  opacity: 0.5;
+}
+.person p {
+  color: #fff;
+  width: 25%;
+  height: 17vh;
+  margin-top: 30px;
+}
+.person button {
+  width: 8%;
+  height: 4vh;
+  background-color: darkslategrey;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.person button:hover {
+  opacity: 0.7;
+}
+
+.delivery {
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.safety {
+  background-image: url(images/factory3-offer-bg1.png);
+  width: 18%;
+  height: 45vh;
+  margin: 10px;
+}
+
+.truck {
+  margin: 15%;
+}
+
+.safety h2 {
+  color: #fff;
+  height: 7vh;
+  margin-top: 10px;
+}
+.safety p {
+  width: 95%;
+  color: #fff;
+  height: 10vh;
+}
+.selection-head {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.selection-head h1 {
+  width: 57%;
+  margin: 5%;
+}
+.selection {
+  float: right;
+  margin-right: 22%;
+}
+.selection img {
+  width: 100%;
+  height: 22vh;
+  margin-top: 40px;
+}
+.name {
+  display: flex;
+  /* margin: 1% 0px; */
+  margin-left: 5%;
+}
+.name img {
+  width: 20%;
+  height: 1vh;
+  margin: 3% 20%;
+}
+.name h2 {
+  margin: px;
+}
+.name2 {
+  display: flex;
+  margin-left: 5%;
+}
+.name2 h2 {
+  margin: 5px;
+}
+.name2 img {
+  width: 20%;
+  height: 1vh;
+  margin: 4%;
+}
+
+.selection2 {
+  margin-left: 21%;
+}
+.selection2 img {
+  width: 30%;
+  height: 22vh;
+  margin-top: 40px;
+}
+.name3 {
+  display: flex;
+}
+.name3 img {
+  width: 12%;
+  height: 1vh;
+  margin: 1% 20%;
+}
+
+.name4 {
+  display: flex;
+}
+.name4 img {
+  width: 12%;
+  height: 1vh;
+  margin: 10px 20%;
+}
+.offers {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+.offers button {
+  width: 20%;
+  height: 5vh;
+  background-color: darkslategrey;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+.offers button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.footerbg {
+  background-image: url(images/factory3-footer-bg.png);
+  width: 100%;
+  height: 45vh;
+}
+.footer-detail {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-detail img {
+  height: 15vh;
+  width: 12%;
+  margin: 5%;
+}
+
+.localization {
+  margin: 4%;
+}
+.localization h5 {
+  color: #fff;
+  font-size: 15px;
+  height: 5vh;
+}
+.localization h1 {
+  color: #fff;
+  height: 8vh;
+}
+
+.localization h4 {
+  color: #fff;
+  height: 3vh;
+}
+.localization span {
+  color: chocolate;
+}
+@media screen and (max-width: 430px) {
+  header {
+    width: 100%;
+    height: auto;
+  }
+  nav {
+    width: 100%;
+    height: auto;
+  }
+  nav img {
+    width: 50%;
+    height: auto;
+  }
+  nav ul {
+    display: none;
+  }
+  .header-bg {
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .head {
+    width: 100%;
+    height: auto;
+    padding-top: 40%;
+  }
+  .head h1 {
+    width: 80%;
+    font-size: 35px;
+    text-align: center;
+  }
+  .stamp {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+  }
+  main .main-bg {
+    width: 100%;
+    height: 160vh;
+  }
+  .main-head h1 {
+    width: 105%;
+    height: auto;
+    font-size: 25px;
+    text-align: center;
+  }
+  .company-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .company-img img {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  .about p {
+    width: 70%;
+    height: 20vh;
+  }
+  .company-start {
+    width: 90%;
+    height: auto;
+    margin: 2% 5%;
+  }
+  .company-start img {
+    width: 100%;
+    height: 50vh;
+    float: none;
+    object-fit: cover;
+  }
+  .person h2 {
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+  }
+  .person h3 {
+    font-size: 28px;
+  }
+  .person p {
+    width: 100%;
+    height: 20vh;
+  }
+  .person button {
+    width: 50%;
+    height: 6vh;
+  }
+  .delivery {
+    display: block;
+    margin-top: 120%;
+    height: auto;
+  }
+  .safety {
+    width: 90%;
+    height: 40vh;
+    margin: 22px;
+  }
+  .selection-head h1 {
+    width: 100%;
+    font-size: 30px;
+    margin: 8%;
+  }
+  .selection {
+    width: 100%;
+    display: block;
+    margin: 10%;
+    padding: 0;
+    float: none;
+  }
+  .selection img {
+    width: 80%;
+  }
+  .name {
+    width: auto;
+    margin: 0;
+  }
+  .name h2 {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .name img {
+    width: 20%;
+  }
+  .name2 {
+    margin: 0;
+  }
+  .name2 img {
+    width: 20%;
+  }
+  .selection2 {
+    width: 100%;
+    float: none;
+    margin: 0;
+    display: block;
+    margin-left: 10%;
+  }
+  .selection2 img {
+    width: 80%;
+  }
+  .name3 img {
+    width: 20%;
+    margin: 3% 15%;
+  }
+  .name3 h2 {
+    margin: 0;
+  }
+  .name4 h2 {
+    margin: 0;
+  }
+  .name4 img {
+    width: 20%;
+    margin: 3% 15%;
+  }
+  .offers button {
+    width: 100%;
+    height: 6vh;
+    font-size: 16px;
+    margin: 15%;
+  }
+  .footerbg {
+    width: auto;
+    height: auto;
+  }
+  .footerbg img {
+    width: 100%;
+    height: auto;
+  }
+  .footer-detail {
+    display: block;
+    text-align: center;
+  }
+  .footer-detail img {
+    width: 50%;
+    height: auto;
+  }
+}
